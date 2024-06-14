@@ -1,0 +1,36 @@
+from setuptools import find_packages, setup
+
+setup(
+    name="dotenv_parser",
+    version="0.0.1",
+    author="Moses Borore",
+    packages=find_packages(),
+    keywords=[
+        "environment variables",
+        "deployments",
+        "settings",
+        "env",
+        "dotenv",
+        "configurations",
+        "python",
+    ],
+    python_requires=">=3.8",
+    install_requires=[],
+    classifiers=[
+        "Development Status :: 5 - Production/Stable",
+        "Programming Language :: Python",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
+        "Programming Language :: Python :: Implementation :: PyPy",
+        "Intended Audience :: Developers",
+        "License :: OSI Approved :: BSD License",
+        "Operating System :: OS Independent",
+        "Topic :: System :: Systems Administration",
+        "Topic :: Utilities",
+        "Environment :: Web Environment",
+    ],
+)
